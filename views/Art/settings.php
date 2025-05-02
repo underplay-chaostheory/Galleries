@@ -1,10 +1,10 @@
         <div class="backarrowdiv">
-            <a class="backarrow" href="/UNDERPLAY/Art/display" target='_self'>
-                <img class="buttonIcon" src='/UNDERPLAY/views/ressources/images/icons/backarrow.png'>
+            <a class="backarrow" href="<?= ROOT ?>/Art/display" target='_self'>
+                <img class="buttonIcon" src='<?= ROOT ?>/views/ressources/images/icons/backarrow.png'>
             </a>
         </div>
         <div class="wrapper" id="settingdiv">
-            <form action="/UNDERPLAY/Art/update_settings" method="post">
+            <form action="<?= ROOT ?>/Art/update_settings" method="post">
                 <div class="editinfo">
                     <label class="label inline">Filtrage du nom : </label>
                     <textarea class="textarea inline" id="name" name="name_like"><?= $info['filtrageName'] ?></textarea>
@@ -31,27 +31,27 @@
                     <div class="checkboxGroup inline">
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_0" id="code_0" <?php if($info['code_0']){echo "checked";}?> >
-                            <label class="label inline" for="code_0">Scène stylé</label>
+                            <label class="label inline" for="code_0">Catégorie 0</label>
                         </div>
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_1" id="code_1" <?php if($info['code_1']){echo "checked";}?> >
-                            <label class="label inline" for="code_1">Scène ok</label>
+                            <label class="label inline" for="code_1">Catégorie 1</label>
                         </div>
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_2" id="code_2" <?php if($info['code_2']){echo "checked";}?> >
-                            <label class="label inline" for="code_2">Portrait stylé</label>
+                            <label class="label inline" for="code_2">Catégorie 2</label>
                         </div>
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_3" id="code_3" <?php if($info['code_3']){echo "checked";}?> >
-                            <label class="label inline" for="code_3">Portrait ok</label>
+                            <label class="label inline" for="code_3">Catégorie 3</label>
                         </div>
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_4" id="code_4" <?php if($info['code_4']){echo "checked";}?> >
-                            <label class="label inline" for="code_4">Insane</label>
+                            <label class="label inline" for="code_4">Catégorie 4</label>
                         </div>
                         <div class="wrapper">
                             <input class="checkbox inline" type="checkbox" name="code_5" id="code_5" <?php if($info['code_5']){echo "checked";}?> >
-                            <label class="label inline" for="code_5">Other</label>
+                            <label class="label inline" for="code_5">Catégorie 5</label>
                         </div>
                     </div>
                 </div>
