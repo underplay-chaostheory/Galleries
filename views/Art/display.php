@@ -1,9 +1,10 @@
         <div class="wrapper">
             <div class="wrapper" id="displayImage">
-                <img src="\ArtImages<?= str_replace("D:\Autre\Image\Art", "", $image['path']) ?>" alt="image introuvable" id="image">
+                <img src="<?= $image['path']) ?>" alt="image introuvable" id="image">
+                    
             </div>
             <div class="wrapper" id="info">
-                <form action="/UNDERPLAY/Art/update_img" method="post" id="editinfoform">
+                <form action="<?= ROOT ?>/Art/update_img" method="post" id="editinfoform">
                     <div class="editinfo">
                         <label class="label inline">Nom : </label>
                         <input class="input inline" id="name" name="name" type="text" value="<?= $image['name'] ?>">
@@ -40,7 +41,7 @@
                         <input id="Savebutton" type="submit" value="Save">
                     </div>
                 </form>
-                <form action="/UNDERPLAY/Art/settings" method="post" id="formsettings">
+                <form action="<?= ROOT ?>/Art/settings" method="post" id="formsettings">
                     <input type="submit" id="gotosettings" value="">
                 </form>
             </div>
