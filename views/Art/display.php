@@ -20,12 +20,12 @@
                     <div class="editinfo">
                         <label class="label inline">Catégorie : </label>
                         <select class="select inline" id="category" name="category">
-                            <option value="0" <?php if($image['category'] == 0) { echo "selected"; }?> >Scène stylé</option>
-                            <option value="1" <?php if($image['category'] == 1) { echo "selected"; }?> >Scène ok</option>
-                            <option value="2" <?php if($image['category'] == 2) { echo "selected"; }?> >Portait stylé</option>
-                            <option value="3" <?php if($image['category'] == 3) { echo "selected"; }?> >Portait ok</option>
-                            <option value="4" <?php if($image['category'] == 4) { echo "selected"; }?> >Insane</option>
-                            <option value="5" <?php if($image['category'] == 5) { echo "selected"; }?> >Other</option>
+                            <option value="0" <?php if($image['category'] == 0) { echo "selected"; }?> >Catégorie 0</option>
+                            <option value="1" <?php if($image['category'] == 1) { echo "selected"; }?> >Catégorie 1</option>
+                            <option value="2" <?php if($image['category'] == 2) { echo "selected"; }?> >Catégorie 2</option>
+                            <option value="3" <?php if($image['category'] == 3) { echo "selected"; }?> >Catégorie 3</option>
+                            <option value="4" <?php if($image['category'] == 4) { echo "selected"; }?> >Catégorie 4</option>
+                            <option value="5" <?php if($image['category'] == 5) { echo "selected"; }?> >Catégorie 5</option>
                         </select>
                     </div>
                     <div class="editinfo">
