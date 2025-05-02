@@ -1,0 +1,6 @@
+name_like : 
+type : portrait
+category : 4
+fullscreen_only : false
+exclude_directory : none
+restrict_directory : none
