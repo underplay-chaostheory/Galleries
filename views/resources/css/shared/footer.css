@@ -1,0 +1,20 @@
+.footer {
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #17141d;
+    text-align: center;
+}
+.footerlink:link, .footerlink:visited, .footerlink:active, .footerlink:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #4599eb;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #17141d;
+}

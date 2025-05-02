@@ -1,0 +1,26 @@
+div#backarrow > a.backarrow:link, div#backarrow > a.backarrow:visited, div#backarrow > a.backarrow:active{
+    margin: 0;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background-color: #17141d;
+    width: 3vw;
+    height: 3vw;
+}
+div#backarrow > a.backarrow:hover {
+    width: 4vw;
+    height: 4vw;
+}
+a.backarrow > img.buttonIcon {
+    margin: 0;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background-color: #17141d;
+    width: 3vw;
+    height: 3vw;
+}
+a.backarrow > img.buttonIcon:hover {
+    width: 4vw;
+    height: 4vw;
+}

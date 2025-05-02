@@ -1,0 +1,18 @@
+#gotosettings {
+    margin: 0;
+    padding: 3px;
+    background-color: #17141d;
+    text-align: center;
+    border-color: #4599eb;
+    border-radius: 5px;
+    background-image: url('../../images/icons/settings-button.png');
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+}
+#gotosettings:hover {
+    background-color: #4599eb;
+    border-color: #17141d;
+    color: #17141d;
+    background-image: url('../../images/icons/settings-button-hover.png');
+}

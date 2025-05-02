@@ -1,0 +1,32 @@
+#settingdiv {
+    text-align: center;
+    width: 100%;
+}
+
+div.backarrowdiv {
+    position: absolute;
+    text-align: center;
+    width: 4vw;
+    height: 4vw;
+    top: 0px;
+    left: 0px;
+}
+
+form {
+    position: absolute;
+    left: 25vw;
+    text-align: left;
+}
+
+div.saving {
+    margin-top: 50px;
+    border: 0;
+    padding: 0;
+    background-color: #17141d;
+    text-align: center;
+}
+
+.editinfo {
+    display: block;
+    margin: 20px 0px 20px 0px;
+}

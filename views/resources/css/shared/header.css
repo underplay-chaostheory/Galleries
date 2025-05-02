@@ -1,0 +1,20 @@
+.head {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #17141d;
+}
+
+div.head > h1.maintitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #4599eb;
+    font-size: 70;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #17141d;
+}
