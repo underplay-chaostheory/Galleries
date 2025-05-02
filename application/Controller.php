@@ -26,14 +26,14 @@ abstract class Controller
         ob_start();
 
         if ($header != "default") {
-            require_once(ROOT . 'views/ressources/php/header/' . $header . '.php');
+            require_once(ROOT . 'views/resources/php/header/' . $header . '.php');
         }
 
 
         require_once(ROOT . 'views/' . str_replace("controller", "", strtolower(get_class($this)) . '/' . $view_file . '.php'));
 
         if ($footer != "default") {
-            require_once(ROOT . 'views/ressources/php/footer/' . $footer . '.php');
+            require_once(ROOT . 'views/resources/php/footer/' . $footer . '.php');
         }
 
         $content = ob_get_clean();
