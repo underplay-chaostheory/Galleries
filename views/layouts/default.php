@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-<!-- a gerer : 'head','header','footer' -->
         <title><?= $title ?></title>
 <?php if ($css != null): ?>
 <?php foreach($css as $css_file): ?>
