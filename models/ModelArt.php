@@ -10,8 +10,8 @@ final class ModelArt extends Model
         $this->getConnection("art");
 
         require_once(ROOT . "/application/lib/scrapping.php");
-        $files = scrapp("D:\Autre\Image\Art");
-        
+        $files = array("Your images path(s)");
+        //A personaliser
 
         $insert = "INSERT INTO images (id, path, name, type, category, fullscreen) VALUES (:id, :path, :name, :type, :category, :fullscreen)";
         $update = "UPDATE images SET path = :newPath WHERE id = :id";
