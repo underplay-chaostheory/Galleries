@@ -5,12 +5,12 @@
         <title><?= $title ?></title>
 <?php if ($css != null): ?>
 <?php foreach($css as $css_file): ?>
-        <link href="/UNDERPLAY/views/ressources/css/<?= $css_file ?>.css" rel="stylesheet">
+        <link href="<?= ROOT ?>/views/ressources/css/<?= $css_file ?>.css" rel="stylesheet">
 <?php endforeach; ?>
 <?php endif; ?>
 <?php if ($js != null): ?>
 <?php foreach($js as $js_file): ?>
-        <script src='/UNDERPLAY/views/ressources/js/<?= $js_file ?>.js'></script>
+        <script src='<?= ROOT ?>/views/ressources/js/<?= $js_file ?>.js'></script>
 <?php endforeach; ?>
 <?php endif; ?>
 <?php if ($police != null): ?>
