@@ -161,8 +161,7 @@ final class ControllerArt extends Controller
         
         $filename = pathinfo($path, PATHINFO_BASENAME);
 
-        //if (copy($path, 'D:\Autre\Wallpaper - Desktop\\' . $filename)) {
-        if (copy($path, 'D:\Autre\Wallpaper - Smartphone\\' . $filename)) {
+        if (copy($path, 'Folder' . $filename)) {
             $this->show(array($id));
         } else {
             echo "Erreur dans le model";
